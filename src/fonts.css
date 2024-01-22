@@ -1,0 +1,134 @@
+@font-face {
+    font-family: Estedad;
+    font-weight: 400;
+    src: url("../public/fonts/estedad/Estedad-Regular.ttf");
+}
+
+@font-face {
+    font-family: Estedad;
+    font-weight: bold;
+    src: url("../public/fonts/estedad/Estedad-Bold.ttf");
+}
+
+
+@font-face {
+    font-family: Estedad;
+    font-weight: 700;
+    src: url("../public/fonts/estedad/Estedad-SemiBold.ttf");
+}
+
+
+@font-face {
+    font-family: IRANYekanMobile;
+    font-weight: 400;
+    src: url("../public/fonts/iran/IranSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: IRANYekanMobile;
+    font-weight: bold;
+    src: url("../public/fonts/iran/IranSans-Bold.ttf");
+}
+
+@font-face {
+    font-family: IRANYekanMobile;
+    font-weight: 700;
+    src: url("../public/fonts/iran/IranSans-Black.ttf");
+}
+
+.page-container {
+    padding: 0;
+}
+
+* {
+    font-family: IRANYekanMobile !important;
+    font-size: 1.0rem;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: Estedad !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    line-height: normal !important;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 1.4rem;
+}
+
+h5 {
+    font-size: 1.3rem;
+}
+
+h6 {
+    font-size: 1.2rem;
+}
+
+
+@media (max-width: 520px) {
+    .desktop {
+        display: none;
+    }
+
+    .appbar-header {
+        box-shadow: 0 4px 10px 0 #cfcfcf;
+    }
+
+
+    * {
+        font-size: 0.9rem;
+    }
+
+    h1 {
+        font-size: 1.7rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.4rem;
+    }
+
+    h4 {
+        font-size: 1.2rem;
+    }
+
+    h5 {
+        font-size: 1.1rem;
+    }
+
+    h6 {
+        font-size: 1.0rem;
+    }
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.mobile-hide {
+    display: unset !important;
+}
+
+@media (max-width:512px) {
+    .mobile-hide {
+        display: none !important;
+    }
+}
